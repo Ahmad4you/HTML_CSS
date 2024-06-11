@@ -1,0 +1,25 @@
+﻿
+body {
+    box-sizing: border-box;
+    padding: 5px 0 5px 0;
+    margin: auto; /* war 1em */
+  }
+li {
+    background-color: #ffeda0;
+    padding: 5px 20px 5px 20px;
+    display: inline; /* li nebeneinander anzeigen */
+    list-style-type: none; /* ohne Aufzählungspunkte */
+  margin: 0 10px 0 0; /* rechts 10px, sonst 0 */
+}
+ul { 
+    margin-bottom: 0; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+ul a { color: black; }
+    
+   
