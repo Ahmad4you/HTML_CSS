@@ -1,104 +1,62 @@
 <!DOCTYPE html>
 <html lang="de">
-
-</html>
-<html>
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title> My Page </title>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <style>
+        body {
+            margin: auto;
+        }
+
+        table {
+            border: 2px solid;
+            border-spacing: 5px;
+            border-collapse: separate;
+        }
+
+        td {
+            padding: 5px;
+        }
+    </style>
 </head>
-
-<body margin="auto">
-  <h1>The input formtarget attribute</h1>
-
-  <p>The formtarget attribute specifies a name or a keyword that indicates where to display the response that is
-    received after submitting the form.</p>
-
-  <br> <br>
-  <form action="/action_page.php" method="post">
-    <input list="browsers" name="browser">
-    <datalist id="browsers">
-      <option value="Internet Explorer">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
-    <input type="submit" value="Submit">
-  </form>
-  <br> <br>
-  welcom
-  <br>
-  <select name="Geschlecht" id="…" size="1">
-    <option value="männlich">männlich</option>
-    <option selected value="weiblich">weiblich</option>
-    <option value="divers">divers</option>
-  </select>
-
-
-  <br> <br>
-    <form action="http://" method="post">
-      <!-- border=2 cellspacing=5 cellpadding=5 width="60%" height="100"width="60%" height="100"-->
-
-      <table border=2 cellspacing=5 cellpadding=5>
-        <tr>
-          <td>
-            <label for="name">First name:</label>
-            <input type="text" id="name" name="name"><br><br>
-          </td>
-
-          <td>
-            <label for="nname">Last name:</label>
-            <input type="text" id="nname" name="nname"><br><br>
-          </td>
-        </tr>
-
-
-        <tr>
-          <td>
-            <label for="plz">PLZ: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="plz" name="plz"><br><br>
-          </td>
-
-
-          <td>
-            <label for="mail"> E-Mail: &nbsp;&nbsp;&nbsp;</label>
-            <input type="email" id="mail" name="mail"><br><br>
-          </td>
-        </tr>
-        <tr>
-          <td><label for="password">Password: </label>
-            <input type="password" id="password" name="password" placeholder="Enter your password">
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <input type="radio" id="ar" name="language" value="arabic" checked>
-            <label for="ar">Arabic</label><br>
-         
-            <input type="radio" id="en" name="language" value="english">
-            <label for="en">English</label><br>
-         
-            <input type="radio" id="fr" name="language" value="french">
-            <label for="fr">French</label><br><br>
-          </td>
-        </tr>
-
-
-        <tr>
-          <td>
-            <input type="submit" value="Submit">
-          </td>
-          <td>
-            <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
-          </td>
-        </tr>
-
-      </table>
+<body>
+    <h1>The input formtarget attribute</h1>
+    <p>The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.</p>
+    <form action="/action_page.php" method="post">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">  
+        </datalist>
+        <input type="submit" value="Submit">  
     </form>
-
-</body>
-
-</html>
+    <p>Welcome</p>
+    <label for="gender">Geschlecht:</label>
+    <select name="Geschlecht" id="gender">
+        <option value="männlich">männlich</option>
+        <option selected value="weiblich">weiblich</option>
+        <option value="divers">divers</option>
+    </select>
+    <form action="http://..." method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="name">First name:</label>
+                    <input type="text" id="name" name="name">
+                </td>
+                <td>
+                    <label for="nname">Last name:</label>
+                    <input type="text" id="nname" name="nname">  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="plz">PLZ:</label>
+                    <input type="text" id="plz" name="plz">
+                </td>
+                <td>
+                    <label for="mail">E-Mail:</label>
+                    <input type

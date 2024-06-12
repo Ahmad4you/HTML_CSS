@@ -1,0 +1,29 @@
+body {
+    color: #f00;
+    background: #aaa;
+  }
+  
+  h1 {
+    color: #1c9736;
+  }
+  
+  .highlight {
+    color: aquamarine;
+  }
+  
+  .bordered {
+    border: 5px dashed #00f;
+  }
+  
+  input,
+  .submitBtn {
+    width: 150px;
+    height: 60px;
+    font-size: 30pt;
+    color: #00f;
+  }
+  
+  .submitBtn {
+    color: #000;
+  }
+  

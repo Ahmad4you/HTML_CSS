@@ -1,0 +1,53 @@
+/* Reset some default browser styles */
+body, h1, input, img, hr, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Input file styling */
+input[type="file"] {
+    margin: 20px 0;
+}
+
+/* Image styling */
+img {
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Horizontal line styling */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+/* Link styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}

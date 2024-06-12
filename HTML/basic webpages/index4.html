@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style4.css">
+    
+</head>
+<body>
+    <form id="loginForm">
+        <table align="center">
+            <tr>
+                <td align="center" colspan="2"><h2>Login Form</h2></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" id="username" name="username" required /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="password" name="password" required /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="HTML_passrecovery.html">Forgot Password</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="cb" type="checkbox" /><label for="cb">Remember Me</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Login" onclick="validateForm()" />
+                </td>
+                <td>
+                    <input type="reset" value="Clear" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="validateForm.js"></script>
+</body>
+<!-- 
+ HTML Structure:
+
+Added id and name attributes to the input fields for better form handling.
+Added required attributes to the input fields to ensure they are filled out.
+Added an onclick event to the login button to call the validateForm function.
+CSS Styling:
+
+Added basic styles for the body, form, table, inputs, buttons, and links.
+Centered the form on the page and added padding, background color, and box shadow for better aesthetics.
+JavaScript:
+
+Added a validateForm function to check if the username and password fields are filled out.
+Displayed an alert if any field is empty.
+Displayed a success message if the form is valid.
+
+
+-->
+
+
+</html>

@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+body, h1, p, form, table, td, label, input, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  /* Input and select styling */
+  input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Radio button styling */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
