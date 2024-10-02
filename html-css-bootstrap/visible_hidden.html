@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>grid system visible hidden</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+
+    <style>
+        div{
+            background: lightblue;
+            color: navajowhite;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+    <body>
+        <br><br>
+        <!--
+        xs: < 576px
+        sm: ≥ 576px
+        md: ≥ 768px
+        lg: ≥ 992px
+        xl: ≥ 1200px
+        xxl: ≥ 1400px
+        -->
+        <!--verstecke auf allen Bildschirmgrößen (d-none), zeige auf grossen Bildschirmen (d-xxl-none)-->
+        <!--d-xxl-none ersetzt visible-xxl-->
+        <div class="d-xxl-none">
+            für XXL-screen
+        </div>
+        <div class="d-xl-none">
+            für XL-screen
+        </div>
+        <div class="d-lg-none">
+            für LG-screen
+        </div>
+        <div class="d-md-none">
+            für MD-screen
+        </div>
+        <div class="d-sm-none">
+            für SM-screen
+        </div>
+        <div class="d-none">
+            für XS-screen
+        </div>
+        <!--d-block d-md-none ersetzt hidden-md-->
+        <div class="d-block d-md-none">
+            Hier ist Big DIV <br>
+            Hier ist Big DIV <br>
+            Hier ist Big DIV <br>
+            Hier ist Big DIV <br>
+        </div>
+
+        <script src="lib/js/bootstrap.js"></script>
+    </body>
+</html>
