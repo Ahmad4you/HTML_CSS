@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>grid system start</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <style>
+        .pro{
+            background: navy;
+            color: #fff;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <br><br>
+        <div class="container" style="background: lightblue;"> 
+            Header <br>
+            Ahmad simple one Container
+        </div>
+        <br><br>
+        <div class="container-fluid" style="background: rgb(125, 105, 206);"> 
+            Ahmad simple one fluid Container
+        </div>
+        <br><br>
+        <div class="container" > 
+            <div class="row"> <!-- besteht aus 12 column/elements--> <!-- responsiv layout option flex-->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <!-- column- lg large_screen 1200px- 12/3 = 4 column-->
+                    <div class="pro">                              <!-- column- md Medium_screen 992px- 12/4 = 3 column-->
+                        Produkt-1                                  <!-- column- sm Small_screen 768px - 12/6 = 2 column-->
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                    <div class="pro">
+                        Produkt-2 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                    <div class="pro">
+                        Produkt-3 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                    <div class="pro">
+                        Produkt-4 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3"> 
+                    <div class="pro">
+                        Menu 
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="pro">
+                        Home
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+                <div class="col-lg-12"> 
+                    <div class="pro">
+                       Footer
+                    </div>
+                </div>
+                
+        </div>
+        
+        
+
+
+        <script src="lib/js/bootstrap.js"></script>
+    </body>
+</html>
