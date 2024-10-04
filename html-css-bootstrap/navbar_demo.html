@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar bootstrap</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <style>
+      body{
+        background: rgb(199, 137, 114);
+      }
+        .navbar{
+          background-color: #a78eef;
+        }
+        
+        button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled){
+          background-color: rgb(132 207 148);
+        }
+    </style>
+    <!-- kopiere einfach selector from Web-Inspector -->
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="input_group.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="offset_push_pull.html">offest</a>
+        </li>
+        <li class="nav-item dropdown">
+          <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </li>
+      </ul>
+      <!--Modal-->
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ... Nachricht ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!--Modal Ende-->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<h1>welcome 1</h1>
+<h1>welcome 2</h1>
+<h1>welcome 3</h1>
+<h1>welcome 4</h1>
+<h1>welcome 5</h1>
+<h1>welcome 1</h1>
+<h1>welcome 2</h1>
+<h1>welcome 3</h1>
+<h1>welcome 4</h1>
+<h1>welcome 5</h1>
+<h1>welcome 1</h1>
+<h1>welcome 2</h1>
+<h1>welcome 3</h1>
+<h1>welcome 4</h1>
+<h1>welcome 5</h1>
+
+
+
+        <script src="lib/js/bootstrap.js"></script>
+    </body>
+</html>
